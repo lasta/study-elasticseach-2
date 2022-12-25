@@ -1,0 +1,1 @@
+rootProject.name = "study-elasticseach-2"
