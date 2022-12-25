@@ -1,4 +1,4 @@
-package elasticsearch2.study.lasta.page.plugins
+package page.lasta.study.elasticsearch2.plugins
 
 import io.ktor.server.plugins.autohead.*
 import io.ktor.server.routing.*

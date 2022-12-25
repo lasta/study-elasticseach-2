@@ -9,10 +9,10 @@ plugins {
     id("org.jetbrains.kotlin.plugin.serialization") version "1.7.22"
 }
 
-group = "elasticsearch2.study.lasta.page"
+group = "page.lasta.study.elasticsearch2"
 version = "0.0.1"
 application {
-    mainClass.set("elasticsearch2.study.lasta.page.ApplicationKt")
+    mainClass.set("page.lasta.study.elasticsearch2.ApplicationKt")
 
     val isDevelopment: Boolean = project.ext.has("development")
     applicationDefaultJvmArgs = listOf("-Dio.ktor.development=$isDevelopment")

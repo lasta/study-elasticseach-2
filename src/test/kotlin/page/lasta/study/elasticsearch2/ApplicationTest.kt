@@ -1,4 +1,4 @@
-package elasticsearch2.study.lasta.page
+package page.lasta.study.elasticsearch2
 
 import io.ktor.server.plugins.autohead.*
 import io.ktor.server.routing.*
@@ -26,6 +26,7 @@ import io.ktor.client.statement.*
 import kotlin.test.*
 import io.ktor.server.testing.*
 import elasticsearch2.study.lasta.page.plugins.*
+import page.lasta.study.elasticsearch2.plugins.configureRouting
 
 class ApplicationTest {
     @Test

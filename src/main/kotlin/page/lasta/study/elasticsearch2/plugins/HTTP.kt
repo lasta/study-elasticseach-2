@@ -1,4 +1,4 @@
-package elasticsearch2.study.lasta.page.plugins
+package page.lasta.study.elasticsearch2.plugins
 
 import io.ktor.server.plugins.openapi.*
 import io.ktor.server.plugins.swagger.*
