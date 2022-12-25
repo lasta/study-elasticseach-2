@@ -6,6 +6,7 @@
 * [nkf](https://ja.osdn.net/projects/nkf/)
   * To convert from Shift-JIS data.
     * Japan Post creates zip data on Shift-JIS format, but elasticsearch requires on UTF-8 format.
+* [Elasticsearch](https://www.elastic.co/jp/elasticsearch/) 8.5.0
 
 ## Initialize index
 ```shell
