@@ -8,7 +8,7 @@ readonly INDEX_NAME='zipcode'
 
 function create_mappings_json_file() {
   rm "${MAPPING_JSON}"
-  yq . "${MAPPING_YAML}" > "${MAPPING_JSON}"
+  yq . -o json "${MAPPING_YAML}" > "${MAPPING_JSON}"
 }
 
 function delete_mappings() {
