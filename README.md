@@ -1,4 +1,4 @@
-# Study Elasticsaerch with Ktor
+# Study Elasticsearch with Ktor
 ## Environment
 * Elasticsearch 8.5
   * [Version 8.6.0 of Elasticsearch has not yet been released, so no Docker image is currently available for this version.](https://www.elastic.co/guide/en/elasticsearch/reference/8.6/docker.html)
